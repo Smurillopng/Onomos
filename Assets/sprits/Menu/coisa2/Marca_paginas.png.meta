@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: 2447674c2f3bdfd4ca73c505a258143f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 754709321242978180
+    second: Marca_paginas_0
+  - first:
+      213: -112307789218920069
+    second: Marca_paginas_1
+  - first:
+      213: 8878723975474112774
+    second: Marca_paginas_2
+  - first:
+      213: 4885122333546564232
+    second: Marca_paginas_3
+  - first:
+      213: -5130804374449681458
+    second: Marca_paginas_4
+  - first:
+      213: 1557711547784409176
+    second: Marca_paginas_5
+  - first:
+      213: -4274016298530695704
+    second: Marca_paginas_6
+  - first:
+      213: 8781273165420253002
+    second: Marca_paginas_7
+  - first:
+      213: -272028839102241007
+    second: Marca_paginas_8
+  - first:
+      213: 5955384312375798136
+    second: Marca_paginas_9
+  - first:
+      213: -8117787188855910018
+    second: Marca_paginas_10
+  - first:
+      213: -6198946883767242574
+    second: Marca_paginas_11
+  - first:
+      213: 4758117020078165360
+    second: Marca_paginas_12
+  - first:
+      213: -3448278455465540124
+    second: Marca_paginas_13
+  - first:
+      213: -1982566069278566182
+    second: Marca_paginas_14
+  - first:
+      213: -8456297303472091095
+    second: Marca_paginas_15
+  - first:
+      213: -1778157967042133896
+    second: Marca_paginas_16
+  - first:
+      213: -8439273419101235346
+    second: Marca_paginas_17
+  - first:
+      213: 1638438331012604280
+    second: Marca_paginas_18
+  - first:
+      213: -8246039527604435775
+    second: Marca_paginas_19
+  - first:
+      213: -2714815867448797041
+    second: Marca_paginas_20
+  - first:
+      213: 3732246368518567271
+    second: Marca_paginas_21
+  - first:
+      213: -5295656684015282905
+    second: Marca_paginas_22
+  - first:
+      213: -8327830764052059938
+    second: Marca_paginas_23
+  - first:
+      213: -7288660001120649027
+    second: Marca_paginas_24
+  - first:
+      213: 7214731636874869213
+    second: Marca_paginas_25
+  - first:
+      213: -3774242538995179039
+    second: Marca_paginas_26
+  - first:
+      213: -2778487267667869760
+    second: Marca_paginas_27
+  - first:
+      213: 4114366944636595766
+    second: Marca_paginas_28
+  - first:
+      213: -4799807662171371362
+    second: Marca_paginas_29
+  - first:
+      213: -5431803400119533272
+    second: Marca_paginas_30
+  - first:
+      213: -1995440748379547708
+    second: Marca_paginas_31
+  - first:
+      213: -6279832248229044095
+    second: Marca_paginas_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marca_paginas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4872d590124497a00800000000000000
+      internalID: 754709321242978180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 65
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c81629a0017ef0800000000000000
+      internalID: -112307789218920069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609e0e80a60973b70800000000000000
+      internalID: 8878723975474112774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ace5f31e07bc340800000000000000
+      internalID: 4885122333546564232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb08e80b98bbc8b0800000000000000
+      internalID: -5130804374449681458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 65
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850b63c466a1e9510800000000000000
+      internalID: 1557711547784409176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e519d932d4afa4c0800000000000000
+      internalID: -4274016298530695704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 52
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f4b843b695dd970800000000000000
+      internalID: 8781273165420253002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11726ac463f893cf0800000000000000
+      internalID: -272028839102241007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 52
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e718aa76c5a250800000000000000
+      internalID: 5955384312375798136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 52
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71d606cf83d75f80800000000000000
+      internalID: -8117787188855910018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 52
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0f98317aae8f9a0800000000000000
+      internalID: -6198946883767242574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dcf7d583a380240800000000000000
+      internalID: 4758117020078165360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 39
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e50857b3014520d0800000000000000
+      internalID: -3448278455465540124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 39
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad898e00aa28c74e0800000000000000
+      internalID: -1982566069278566182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 39
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920d377e76235aa80800000000000000
+      internalID: -8456297303472091095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8704ce300c6b257e0800000000000000
+      internalID: -1778157967042133896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 39
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67131cd98da1ea80800000000000000
+      internalID: -8439273419101235346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871e3623bf6ecb610800000000000000
+      internalID: 1638438331012604280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ce413dbe209d80800000000000000
+      internalID: -8246039527604435775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 26
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88de1e2a59035ad0800000000000000
+      internalID: -2714815867448797041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 26
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7657ac14c4a9bc330800000000000000
+      internalID: 3732246368518567271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 26
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72598d0bd4c0286b0800000000000000
+      internalID: -5295656684015282905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 26
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed86b17fa0a9d6c80800000000000000
+      internalID: -8327830764052059938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db00b90985a79da90800000000000000
+      internalID: -7288660001120649027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 13
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9f2bdc230ef1460800000000000000
+      internalID: 7214731636874869213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1260758623f9bc0800000000000000
+      internalID: -3774242538995179039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 13
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff5b51d84d079d0800000000000000
+      internalID: -2778487267667869760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 13
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6ca2ffea291930800000000000000
+      internalID: 4114366944636595766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 13
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c31a9c58a36db0800000000000000
+      internalID: -4799807662171371362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821cd16269b5e94b0800000000000000
+      internalID: -5431803400119533272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c75f7e2635ce44e0800000000000000
+      internalID: -1995440748379547708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marca_paginas_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180e34b97dd89d8a0800000000000000
+      internalID: -6279832248229044095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - apostado
+  - pista1
+  - pista2
+  - pista3
+  - pista4
+  - pista5
+  - pista6
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Pista
+    uniqueID: 1452879577
+    locked: 0
+  - name: corredor
+    uniqueID: 3899956109
+    locked: 0
+  - name: objetos
+    uniqueID: 2060676139
+    locked: 0
+  - name: BAR
+    uniqueID: 3002331535
+    locked: 0

@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: d16fc8fbc50e4254a88ab68aa80aac01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3136579933041540788
+    second: marca_pagina_apostas_0
+  - first:
+      213: -8813165078009565605
+    second: marca_pagina_apostas_1
+  - first:
+      213: 2720315625677662692
+    second: marca_pagina_apostas_2
+  - first:
+      213: 2192471205845613783
+    second: marca_pagina_apostas_3
+  - first:
+      213: -646562000721170938
+    second: marca_pagina_apostas_4
+  - first:
+      213: 1880899841538146880
+    second: marca_pagina_apostas_5
+  - first:
+      213: -1871747012778160746
+    second: marca_pagina_apostas_6
+  - first:
+      213: -7607425959562219836
+    second: marca_pagina_apostas_7
+  - first:
+      213: -3946329232150068867
+    second: marca_pagina_apostas_8
+  - first:
+      213: 3497453939863730564
+    second: marca_pagina_apostas_9
+  - first:
+      213: 3446764897604480234
+    second: marca_pagina_apostas_10
+  - first:
+      213: 8220423207432079312
+    second: marca_pagina_apostas_11
+  - first:
+      213: 8246082008006330540
+    second: marca_pagina_apostas_12
+  - first:
+      213: 5088987407453833831
+    second: marca_pagina_apostas_13
+  - first:
+      213: 882373972887627307
+    second: marca_pagina_apostas_14
+  - first:
+      213: -7431858428046378550
+    second: marca_pagina_apostas_15
+  - first:
+      213: 4905421090583964946
+    second: marca_pagina_apostas_16
+  - first:
+      213: 8517668208498845266
+    second: marca_pagina_apostas_17
+  - first:
+      213: -5276581560981918486
+    second: marca_pagina_apostas_18
+  - first:
+      213: -8970814578142024651
+    second: marca_pagina_apostas_19
+  - first:
+      213: -2968519797157346058
+    second: marca_pagina_apostas_20
+  - first:
+      213: -5303864136944806066
+    second: marca_pagina_apostas_21
+  - first:
+      213: 7293785397089349020
+    second: marca_pagina_apostas_22
+  - first:
+      213: -6065215994410383280
+    second: marca_pagina_apostas_23
+  - first:
+      213: 896778424361757085
+    second: marca_pagina_apostas_24
+  - first:
+      213: -1689608333164305298
+    second: marca_pagina_apostas_25
+  - first:
+      213: -54433672924184028
+    second: marca_pagina_apostas_26
+  - first:
+      213: 504846909004560923
+    second: marca_pagina_apostas_27
+  - first:
+      213: 4727007785565676491
+    second: marca_pagina_apostas_28
+  - first:
+      213: -1238250977720424752
+    second: marca_pagina_apostas_29
+  - first:
+      213: 5910187794274160932
+    second: marca_pagina_apostas_30
+  - first:
+      213: -2137942292035358199
+    second: marca_pagina_apostas_31
+  - first:
+      213: -4539887722255005858
+    second: marca_pagina_apostas_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: marca_pagina_apostas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be3f8ea4de578b20800000000000000
+      internalID: 3136579933041540788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 65
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eac524e0951b580800000000000000
+      internalID: -8813165078009565605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9267116a080c520800000000000000
+      internalID: 2720315625677662692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc33bc02f83d6e10800000000000000
+      internalID: 2192471205845613783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 65
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eafb53943f607f0800000000000000
+      internalID: -646562000721170938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04248f0c07c4a1a10800000000000000
+      internalID: 1880899841538146880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d85f142083606e0800000000000000
+      internalID: -1871747012778160746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 52
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6539456efc6690800000000000000
+      internalID: -7607425959562219836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7184fec872db39c0800000000000000
+      internalID: -3946329232150068867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 52
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4893ed7f3d3798030800000000000000
+      internalID: 3497453939863730564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 52
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2002a96e55df20800000000000000
+      internalID: 3446764897604480234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 52
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7cd5e7a5fc41270800000000000000
+      internalID: 8220423207432079312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca805fb85e7ff6270800000000000000
+      internalID: 8246082008006330540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 39
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac8bf9517bf9640800000000000000
+      internalID: 5088987407453833831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 39
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26640d0472de3c00800000000000000
+      internalID: 882373972887627307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 39
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac97d47a22cbcd890800000000000000
+      internalID: -7431858428046378550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d67f9ed7e831440800000000000000
+      internalID: 4905421090583964946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 39
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256263a6b16d43670800000000000000
+      internalID: 8517668208498845266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeceb4dd601d5c6b0800000000000000
+      internalID: -5276581560981918486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce2fbaba3418380800000000000000
+      internalID: -8970814578142024651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 26
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c8bde8f2bdc6d0800000000000000
+      internalID: -2968519797157346058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 26
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4798742ba3e466b0800000000000000
+      internalID: -5303864136944806066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 26
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d217dac2bb83560800000000000000
+      internalID: 7293785397089349020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 26
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c62f103604dba0800000000000000
+      internalID: -6065215994410383280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d992152c93ff17c00800000000000000
+      internalID: 896778424361757085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 13
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64a3344c2e4d88e0800000000000000
+      internalID: -1689608333164305298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422c885ecdc9e3ff0800000000000000
+      internalID: -54433672924184028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 13
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1abb25c693910700800000000000000
+      internalID: 504846909004560923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 13
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3e5254984b99140800000000000000
+      internalID: 4727007785565676491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 13
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6a13adb49d0dee0800000000000000
+      internalID: -1238250977720424752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219f814c74350250800000000000000
+      internalID: 5910187794274160932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902b2fc00d08452e0800000000000000
+      internalID: -2137942292035358199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marca_pagina_apostas_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5745d28b241ff0c0800000000000000
+      internalID: -4539887722255005858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
