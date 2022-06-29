@@ -55,8 +55,8 @@ public class PreCorridaManager : MonoBehaviour
 
     
     //Lista de Onomos por ScripbleObject
-    PistaProperties listOnomos;
-    public PistaProperties listPlayer;
+    StageProperties listOnomos;
+    public StageProperties listPlayer;
 
     public GameObject[] NPCS;
 
@@ -135,7 +135,7 @@ public class PreCorridaManager : MonoBehaviour
     //Escolhe o onomo na onomo pedia
     public void EscolhidoPlayer(int botaoEscolhido)
     {
-        listPlayer.GetEscolha(player, botaoEscolhido);
+        listPlayer.GetChosen(player, botaoEscolhido);
         botoesimagens[5].sprite = player.GetComponentInChildren<SpriteRenderer>().sprite;
 
         Onomocole.sprite = player.GetComponentInChildren<SpriteRenderer>().sprite;

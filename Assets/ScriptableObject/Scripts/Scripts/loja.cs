@@ -26,7 +26,7 @@ public class loja : MonoBehaviour
     [SerializeField] Image Spowpont;
 
     public Image[] BotõesCole;
-    public PistaProperties listPlayer;
+    public StageProperties listPlayer;
     public int pagamento;
     public int qual;
     public int faseAtual;
@@ -57,7 +57,7 @@ public class loja : MonoBehaviour
     void Update()
     {
 
-        faseAtual = Gm.FASE;
+        faseAtual = Gm.level;
         if(faseAtual == 2)
         {
             for(int i = 0; i<imagensdebotõesdesfase2.Length; i++)
@@ -89,7 +89,7 @@ public class loja : MonoBehaviour
 
     public void BuyOnomo()
     {
-        if(listPlayer.Repetido(compraveis[qual], qual))
+        if(listPlayer.Repeated(compraveis[qual], qual))
         {
             Money.text = "ja comprado";
             Debug.Log("Ja foi comprado");

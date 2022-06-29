@@ -116,9 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,8 +131,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -150,10 +153,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -888,9 +895,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "marca_pagina_op\xE7\xF5es_14": -4788696393116836990
+      "marca_pagina_op\xE7\xF5es_20": -1886029358128098371
+      "marca_pagina_op\xE7\xF5es_12": -1078463527245804622
+      "marca_pagina_op\xE7\xF5es_27": 5636275825921494416
+      "marca_pagina_op\xE7\xF5es_15": -8479293684813862242
+      "marca_pagina_op\xE7\xF5es_24": -2374736234934169478
+      "marca_pagina_op\xE7\xF5es_11": -1269715706849717080
+      "marca_pagina_op\xE7\xF5es_17": 250847107448577462
+      "marca_pagina_op\xE7\xF5es_2": 7065475257081007799
+      "marca_pagina_op\xE7\xF5es_8": 3606118534165498220
+      "marca_pagina_op\xE7\xF5es_26": -1464920624605184804
+      "marca_pagina_op\xE7\xF5es_1": -4462392341004759711
+      "marca_pagina_op\xE7\xF5es_7": -698074757874998631
+      "marca_pagina_op\xE7\xF5es_22": -8303430402427782033
+      "marca_pagina_op\xE7\xF5es_4": -7885028495955570767
+      "marca_pagina_op\xE7\xF5es_6": -8258795311977979189
+      "marca_pagina_op\xE7\xF5es_5": -6571939066964306371
+      "marca_pagina_op\xE7\xF5es_23": -4224812721983900217
+      "marca_pagina_op\xE7\xF5es_9": 7533790122390959273
+      "marca_pagina_op\xE7\xF5es_29": 7342858488025999614
+      "marca_pagina_op\xE7\xF5es_10": 7584777256175788779
+      "marca_pagina_op\xE7\xF5es_18": 216733817122289895
+      "marca_pagina_op\xE7\xF5es_31": 2119373793045538236
+      "marca_pagina_op\xE7\xF5es_30": 8590586528772983078
+      "marca_pagina_op\xE7\xF5es_21": -7140995632280812077
+      "marca_pagina_op\xE7\xF5es_16": -4143177547256313763
+      "marca_pagina_op\xE7\xF5es_25": 230196561108906944
+      "marca_pagina_op\xE7\xF5es_28": -2509285688244334787
+      "marca_pagina_op\xE7\xF5es_3": 5557558919279761722
+      "marca_pagina_op\xE7\xF5es_19": 4985823102712256478
+      "marca_pagina_op\xE7\xF5es_0": 523139587843538422
+      "marca_pagina_op\xE7\xF5es_13": -1189578057239036568
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

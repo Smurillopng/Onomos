@@ -77,9 +77,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -89,8 +92,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -111,10 +114,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -576,9 +583,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_Completa 3": 5371236748152700825
+      "Anima\xE7\xE3o_Completa 4": 4649665271896033588
+      "Anima\xE7\xE3o_Completa 16": 8283838616900264702
+      "Anima\xE7\xE3o_Completa 13": 6027010081123673476
+      "Anima\xE7\xE3o_Completa 8": 8210857706901333380
+      "Anima\xE7\xE3o_Completa 7": -8051795805510153991
+      "Anima\xE7\xE3o_Completa 14": -5734090785867059157
+      "Anima\xE7\xE3o_Completa 5": -2761355963283286733
+      "Anima\xE7\xE3o_Completa 9": 6913432188901664641
+      "Anima\xE7\xE3o_Completa 2": 5778207738938818871
+      "Anima\xE7\xE3o_Completa 1": -7697781206328009924
+      "Anima\xE7\xE3o_Completa 0": -4832289552936536425
+      "Anima\xE7\xE3o_Completa 6": 248171060306211104
+      "Anima\xE7\xE3o_Completa 15": 1859033605389229206
+      "Anima\xE7\xE3o_Completa 11": 3136809989320554536
+      "Anima\xE7\xE3o_Completa 18": 53241269964265090
+      "Anima\xE7\xE3o_Completa 17": -6350838662080088562
+      "Anima\xE7\xE3o_Completa 10": -6718485181754422026
+      "Anima\xE7\xE3o_Completa 12": 9122058563121462547
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -120,7 +120,7 @@ public class Habilidades : MonoBehaviour
         if(desacelerar == true){
 
             Debug.Log("Ta funcionando");
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Desacelerar;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Desacelerar;
 
             desacelerar = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
@@ -128,7 +128,7 @@ public class Habilidades : MonoBehaviour
         }
 
          if(desacelerarOutros == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().DesacelerarOutros;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().DesacelerarOutros;
             desacelerarOutros = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -154,28 +154,28 @@ public class Habilidades : MonoBehaviour
 
 
         if(assustarcaveira == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar2;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar2;
             assustarcaveira  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(assustarcaverinha == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar1;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar1;
             assustarcaverinha  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(quentinhofogo == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Quentinho;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Quentinho;
             quentinhofogo  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(bolamarcacao == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Marcacao;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Marcacao;
             bolamarcacao  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -183,14 +183,14 @@ public class Habilidades : MonoBehaviour
          
 
         if(quentinhogrego == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Quentinho;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Quentinho;
             quentinhogrego  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(footmarcacao == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().FootMarcacao;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().FootMarcacao;
             footmarcacao  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -204,35 +204,35 @@ public class Habilidades : MonoBehaviour
         }*/
 
         if(paraliziaGelo == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
             paraliziaGelo  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(desacelerarBuffado == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia5;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia5;
             desacelerarBuffado  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(confusaoarea == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;//ConfusaoArea;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;//ConfusaoArea;
             confusaoarea  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(confusaorom == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;
             confusaorom = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(confusaomelo == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Confusao;
             confusaomelo = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -243,7 +243,7 @@ public class Habilidades : MonoBehaviour
            
                 for(int i = 0; i<5; i++)
                 {
-                    cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Magnetismo;
+                    cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Magnetismo;
                     
                 }
             magnetismo  = false;
@@ -252,42 +252,42 @@ public class Habilidades : MonoBehaviour
         }
 
         if(quentinhoRapido == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().QuentinhoRapido;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().QuentinhoRapido;
             quentinhoRapido  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(tornadoarea == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Tornado;//TornadoArea;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Tornado;//TornadoArea;
             tornadoarea  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(tornado == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Tornado;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Tornado;
             tornado  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(paraliziaPedra == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
             paraliziaPedra  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(assustarpiche == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar2;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar2;
             assustarpiche  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(paraliziaLetrico == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Paralisia;
             paraliziaLetrico  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -305,7 +305,7 @@ public class Habilidades : MonoBehaviour
         {
             for(int i = 0; i<5; i++)
                 {
-                    cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Paralisia;
+                    cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Paralisia;
                     
                 }
             paraliziaPlanta = false;
@@ -314,7 +314,7 @@ public class Habilidades : MonoBehaviour
         }
 
         if(acelerar == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Acelerar;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Acelerar;
             acelerar  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -323,7 +323,7 @@ public class Habilidades : MonoBehaviour
         if(darpassagem == true){
             for(int i = 0; i<5; i++)
                 {
-                    cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().DarPassagem;
+                    cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().DarPassagem;
                     
                 }
            
@@ -333,21 +333,21 @@ public class Habilidades : MonoBehaviour
         }
 
         if(marcacaoLenta == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().MarcacaoLenta;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().MarcacaoLenta;
             marcacaoLenta  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(assustarterror == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar3;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Assustar3;
             assustarterror  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
         }
 
         if(paraliziaSol == true){
-            Pista.GetComponentInChildren<carroeng1>().delegatePowerUp = Pista.GetComponentInChildren<carroeng1>().Cegar;
+            Pista.GetComponentInChildren<carroeng1>().PowerUp = Pista.GetComponentInChildren<carroeng1>().Cegar;
             paraliziaSol  = false;
             //Pista.GetComponent<carroeng1>().ativarHabilidade = true;
         
@@ -393,7 +393,7 @@ public class Habilidades : MonoBehaviour
 
         if(iD == "p04"){
             //delegatePowerUp = DashMolhado;
-            Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().DashMolhado;
+            Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().DashMolhado;
             //AHabilidade.SetTrigger("SobeHabi");
            //dashMolhado = true;
             Debug.Log("Ta funfando 3");
@@ -401,7 +401,7 @@ public class Habilidades : MonoBehaviour
 
         if(iD == "4gua"){
             //delegatePowerUp = PowerUp4;
-            Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().DashEscorregar;
+            Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().DashEscorregar;
             //dashagua = true;
             Debug.Log("Ta funfando 4");
         }
@@ -460,7 +460,7 @@ public class Habilidades : MonoBehaviour
             //delegatePowerUp = PowerUp4;
             //AHabilidade.SetTrigger("SobeHabi");
             //dashlava = true;
-            Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().DashEscorregar;
+            Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().DashEscorregar;
             Debug.Log("Ta funfando 12");
         }
 
@@ -488,12 +488,12 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "melo" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "melor0m" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "n1tro" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "s01" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "v1d4")//v1d4
                     {
-                     cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Confusao;
+                     cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Confusao;
                     }
                     
                     if(Player.GetComponentInChildren<OnomoStatus>().Chegada != false)
                     {
-                        Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().Confusao;
+                        Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().Confusao;
                     }
                     
                     
@@ -521,7 +521,7 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false )//v1d4
                     {
-                      cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Magnetismo;
+                      cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Magnetismo;
                     }
                    
                     
@@ -538,12 +538,12 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "s01" )//v1d4
                     {
-                     cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().QuentinhoRapido;
+                     cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().QuentinhoRapido;
                     }
                     
                     
                 }
-             Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().Nitro;
+             Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().Nitro;
             
             //quentinhoRapido = true;
             Debug.Log("Ta funfando 19");
@@ -556,7 +556,7 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false )//v1d4
                     {
-                     cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Tornado;
+                     cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Tornado;
                     }
                      
                     
@@ -592,7 +592,7 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "ndourada" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "nuvem" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "n1tro" && cm.corredor[i].GetComponentInChildren<OnomoStatus>().ID != "s01")
                     {
-                    cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Paralisia;
+                    cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Paralisia;
                     }
                 }
              
@@ -603,7 +603,7 @@ public class Habilidades : MonoBehaviour
             //delegatePowerUp = Desacelerar;
             //AHabilidade.SetTrigger("SobeHabi");
             //invisivel = true;
-            Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().Invisivel;
+            Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().Invisivel;
             Debug.Log("Ta funfando 25");
             
         }
@@ -614,7 +614,7 @@ public class Habilidades : MonoBehaviour
                 {
                      if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false )//v1d4
                     {
-                     cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Cegar;
+                     cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Cegar;
                     }
                     
                     
@@ -636,7 +636,7 @@ public class Habilidades : MonoBehaviour
                 {
                      if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false )//v1d4
                     {
-                     cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().DarPassagem;
+                     cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().DarPassagem;
                     }
                     
                     
@@ -660,12 +660,12 @@ public class Habilidades : MonoBehaviour
                 {
                     if(cm.corredor[i].GetComponentInChildren<OnomoStatus>().Chegada != false )
                     {
-                      cm.corredor[i].GetComponentInChildren<carroeng1>().delegatePowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Assustar3;
+                      cm.corredor[i].GetComponentInChildren<carroeng1>().PowerUp = cm.corredor[i].GetComponentInChildren<carroeng1>().Assustar3;
                     }
                     
                     if(Player.GetComponentInChildren<OnomoStatus>().Chegada != false)
                     {
-                       Player.GetComponentInChildren<carroeng1>().delegatePowerUp = Player.GetComponentInChildren<carroeng1>().Assustar3;
+                       Player.GetComponentInChildren<carroeng1>().PowerUp = Player.GetComponentInChildren<carroeng1>().Assustar3;
                     }
                    
                     

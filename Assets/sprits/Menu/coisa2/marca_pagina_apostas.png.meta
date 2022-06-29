@@ -119,9 +119,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,8 +134,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -153,10 +156,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -912,9 +919,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      marca_pagina_apostas_4: -646562000721170938
+      marca_pagina_apostas_11: 8220423207432079312
+      marca_pagina_apostas_17: 8517668208498845266
+      marca_pagina_apostas_8: -3946329232150068867
+      marca_pagina_apostas_15: -7431858428046378550
+      marca_pagina_apostas_22: 7293785397089349020
+      marca_pagina_apostas_18: -5276581560981918486
+      marca_pagina_apostas_10: 3446764897604480234
+      marca_pagina_apostas_16: 4905421090583964946
+      marca_pagina_apostas_24: 896778424361757085
+      marca_pagina_apostas_14: 882373972887627307
+      marca_pagina_apostas_3: 2192471205845613783
+      marca_pagina_apostas_7: -7607425959562219836
+      marca_pagina_apostas_12: 8246082008006330540
+      marca_pagina_apostas_9: 3497453939863730564
+      marca_pagina_apostas_2: 2720315625677662692
+      marca_pagina_apostas_5: 1880899841538146880
+      marca_pagina_apostas_30: 5910187794274160932
+      marca_pagina_apostas_27: 504846909004560923
+      marca_pagina_apostas_0: 3136579933041540788
+      marca_pagina_apostas_1: -8813165078009565605
+      marca_pagina_apostas_25: -1689608333164305298
+      marca_pagina_apostas_32: -4539887722255005858
+      marca_pagina_apostas_26: -54433672924184028
+      marca_pagina_apostas_29: -1238250977720424752
+      marca_pagina_apostas_6: -1871747012778160746
+      marca_pagina_apostas_28: 4727007785565676491
+      marca_pagina_apostas_19: -8970814578142024651
+      marca_pagina_apostas_20: -2968519797157346058
+      marca_pagina_apostas_21: -5303864136944806066
+      marca_pagina_apostas_31: -2137942292035358199
+      marca_pagina_apostas_23: -6065215994410383280
+      marca_pagina_apostas_13: 5088987407453833831
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

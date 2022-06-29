@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     private GameObject[] CharacterList;
-    public PistaProperties jogador;
+    public StageProperties jogador;
     public Button[] botao1;
     public Button[] botao2;
     private int characternum;

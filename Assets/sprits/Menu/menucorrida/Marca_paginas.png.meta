@@ -359,9 +359,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -371,8 +374,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -393,10 +396,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -2727,9 +2734,117 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Marca_paginas_83: -436349376766812801
+      Marca_paginas_73: -7146165627669102588
+      Marca_paginas_62: -3808323688859163263
+      Marca_paginas_15: -8456297303472091095
+      Marca_paginas_92: 6886162988192597428
+      Marca_paginas_13: -3448278455465540124
+      Marca_paginas_11: -6198946883767242574
+      Marca_paginas_24: -7288660001120649027
+      Marca_paginas_91: -4378432905827676809
+      Marca_paginas_107: -3641517050558989734
+      Marca_paginas_79: 5311833121552974860
+      Marca_paginas_49: 5477523267369184236
+      Marca_paginas_12: 4758117020078165360
+      Marca_paginas_21: 3732246368518567271
+      Marca_paginas_68: -7209066769324724309
+      Marca_paginas_33: -9161649124840202491
+      Marca_paginas_19: -8246039527604435775
+      Marca_paginas_51: -897275236675548458
+      Marca_paginas_84: -5678739076026824901
+      Marca_paginas_53: -406123139508897306
+      Marca_paginas_32: -6279832248229044095
+      Marca_paginas_58: 1408333582191632588
+      Marca_paginas_88: -2412013020434027760
+      Marca_paginas_20: -2714815867448797041
+      Marca_paginas_100: -3873033706058483861
+      Marca_paginas_106: 3235580070241137854
+      Marca_paginas_14: -1982566069278566182
+      Marca_paginas_47: -7439720759715556898
+      Marca_paginas_31: -1995440748379547708
+      Marca_paginas_7: 8781273165420253002
+      Marca_paginas_87: 6786411353802271656
+      Marca_paginas_89: -6764596285823594572
+      Marca_paginas_57: 6811586591560898505
+      Marca_paginas_29: -4799807662171371362
+      Marca_paginas_22: -5295656684015282905
+      Marca_paginas_97: 8310015455035722809
+      Marca_paginas_28: 4114366944636595766
+      Marca_paginas_60: -5055433417913686886
+      Marca_paginas_38: 1641943461557710249
+      Marca_paginas_46: -5583651626508639231
+      Marca_paginas_43: 734426122378413499
+      Marca_paginas_59: 7816753034497442076
+      Marca_paginas_86: -9216339431407271290
+      Marca_paginas_64: 5143176294013550982
+      Marca_paginas_26: -3774242538995179039
+      Marca_paginas_30: -5431803400119533272
+      Marca_paginas_81: 7542885388470778547
+      Marca_paginas_80: -4115046553840467357
+      Marca_paginas_2: 8878723975474112774
+      Marca_paginas_102: -2106319068847064224
+      Marca_paginas_61: -6855165594792497806
+      Marca_paginas_8: -272028839102241007
+      Marca_paginas_6: -4274016298530695704
+      Marca_paginas_56: -259749167134699593
+      Marca_paginas_67: 2105959330649852799
+      Marca_paginas_44: -6168141671664657380
+      Marca_paginas_94: 7311657636878433243
+      Marca_paginas_18: 1638438331012604280
+      Marca_paginas_34: 5247998352638038026
+      Marca_paginas_10: -8117787188855910018
+      Marca_paginas_40: -3213804216427389017
+      Marca_paginas_25: 7214731636874869213
+      Marca_paginas_52: -8362224401704018161
+      Marca_paginas_3: 4885122333546564232
+      Marca_paginas_1: -112307789218920069
+      Marca_paginas_82: -8027193073467736809
+      Marca_paginas_74: 1048978202071799767
+      Marca_paginas_4: -5130804374449681458
+      Marca_paginas_69: -7031986505601650762
+      Marca_paginas_76: 5624610763517476167
+      Marca_paginas_65: 7712297384090159139
+      Marca_paginas_93: -7463403816758564953
+      Marca_paginas_5: 1557711547784409176
+      Marca_paginas_35: 9194853499356221988
+      Marca_paginas_54: -4248557441183149495
+      Marca_paginas_16: -1778157967042133896
+      Marca_paginas_78: -2964865875467104728
+      Marca_paginas_95: 9034251774262592294
+      Marca_paginas_63: -2166588255311253215
+      Marca_paginas_9: 5955384312375798136
+      Marca_paginas_27: -2778487267667869760
+      Marca_paginas_104: -5135341463334682393
+      Marca_paginas_85: 5469267139337369851
+      Marca_paginas_36: -7242579662381311587
+      Marca_paginas_103: -8385861714196972369
+      Marca_paginas_98: -5529402882994820985
+      Marca_paginas_105: -4233868948253727103
+      Marca_paginas_39: -7001674715989976939
+      Marca_paginas_45: 2231014249064696737
+      Marca_paginas_72: -8667576241991508234
+      Marca_paginas_99: -6928289195882787960
+      Marca_paginas_37: 5111952231081129281
+      Marca_paginas_42: -8518666448627767690
+      Marca_paginas_48: -2458581719263859653
+      Marca_paginas_96: -3512940551023251249
+      Marca_paginas_70: -4469584408329205841
+      Marca_paginas_71: 1762550380782358473
+      Marca_paginas_101: -4948913341096592742
+      Marca_paginas_77: 1917717997832073252
+      Marca_paginas_90: 6977201073719999421
+      Marca_paginas_23: -8327830764052059938
+      Marca_paginas_0: 754709321242978180
+      Marca_paginas_66: -159943763950477530
+      Marca_paginas_41: -3513374730161215272
+      Marca_paginas_17: -8439273419101235346
+      Marca_paginas_50: -536091479588081320
+      Marca_paginas_75: -5199869209059333689
+      Marca_paginas_55: -4321555662614316490
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

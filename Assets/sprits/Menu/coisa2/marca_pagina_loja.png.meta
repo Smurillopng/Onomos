@@ -101,9 +101,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -113,8 +116,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -135,10 +138,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -894,9 +901,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      marca_pagina_loja_10: 8168036405389976438
+      marca_pagina_loja_2: 4682257928899371954
+      marca_pagina_loja_30: 883697457305166077
+      marca_pagina_loja_6: 6904485341250752018
+      marca_pagina_loja_5: 4525812130763486981
+      marca_pagina_loja_22: -7447463150261615153
+      marca_pagina_loja_19: 48573244508420081
+      marca_pagina_loja_20: -1044818353615216603
+      marca_pagina_loja_17: -7783305465024544354
+      marca_pagina_loja_9: -1016451030678229451
+      marca_pagina_loja_28: 4265654213313973252
+      marca_pagina_loja_11: 906041595140666298
+      marca_pagina_loja_29: -2876788092145012436
+      marca_pagina_loja_25: -5985572187954062082
+      marca_pagina_loja_8: -9161605348088449958
+      marca_pagina_loja_13: 5992169581811464865
+      marca_pagina_loja_14: 5016003524719298753
+      marca_pagina_loja_0: 887792898922594558
+      marca_pagina_loja_15: -873933047965336456
+      marca_pagina_loja_3: -320915892295475971
+      marca_pagina_loja_4: -2812658877632147571
+      marca_pagina_loja_18: -8592561357493492240
+      marca_pagina_loja_26: -4648323484159749547
+      marca_pagina_loja_32: -144576572022767864
+      marca_pagina_loja_7: -7520999541446225945
+      marca_pagina_loja_21: -7621365929992667375
+      marca_pagina_loja_23: 4185147907668501693
+      marca_pagina_loja_16: 7184522933183870021
+      marca_pagina_loja_12: -2530864350363963891
+      marca_pagina_loja_27: 2915669532843913134
+      marca_pagina_loja_24: -8975302501463004646
+      marca_pagina_loja_31: -3723602702727455233
+      marca_pagina_loja_1: 820522609578884874
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

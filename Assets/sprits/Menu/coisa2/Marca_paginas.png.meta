@@ -119,9 +119,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,8 +134,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -153,10 +156,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -912,9 +919,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Marca_paginas_31: -1995440748379547708
+      Marca_paginas_8: -272028839102241007
+      Marca_paginas_15: -8456297303472091095
+      Marca_paginas_6: -4274016298530695704
+      Marca_paginas_7: 8781273165420253002
+      Marca_paginas_9: 5955384312375798136
+      Marca_paginas_13: -3448278455465540124
+      Marca_paginas_11: -6198946883767242574
+      Marca_paginas_24: -7288660001120649027
+      Marca_paginas_29: -4799807662171371362
+      Marca_paginas_27: -2778487267667869760
+      Marca_paginas_18: 1638438331012604280
+      Marca_paginas_22: -5295656684015282905
+      Marca_paginas_28: 4114366944636595766
+      Marca_paginas_12: 4758117020078165360
+      Marca_paginas_10: -8117787188855910018
+      Marca_paginas_21: 3732246368518567271
+      Marca_paginas_25: 7214731636874869213
+      Marca_paginas_19: -8246039527604435775
+      Marca_paginas_3: 4885122333546564232
+      Marca_paginas_1: -112307789218920069
+      Marca_paginas_4: -5130804374449681458
+      Marca_paginas_32: -6279832248229044095
+      Marca_paginas_26: -3774242538995179039
+      Marca_paginas_5: 1557711547784409176
+      Marca_paginas_20: -2714815867448797041
+      Marca_paginas_30: -5431803400119533272
+      Marca_paginas_23: -8327830764052059938
+      Marca_paginas_0: 754709321242978180
+      Marca_paginas_16: -1778157967042133896
+      Marca_paginas_2: 8878723975474112774
+      Marca_paginas_14: -1982566069278566182
+      Marca_paginas_17: -8439273419101235346
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

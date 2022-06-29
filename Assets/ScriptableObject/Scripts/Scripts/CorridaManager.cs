@@ -12,7 +12,7 @@ public class CorridaManager : MonoBehaviour
     public GameManager gm;
     public PreCorridaManager PreCorrida;
 
-    public PistaProperties Corredores;
+    public StageProperties Corredores;
 
     public ApostaManager Aposta;
 
@@ -53,7 +53,7 @@ public class CorridaManager : MonoBehaviour
 
     
 
-    PistaProperties listOnomos;
+    StageProperties listOnomos;
     private Vector2 vPlayer;
     private Vector2 pista1;
     private Vector2 pista2;
@@ -216,7 +216,7 @@ public class CorridaManager : MonoBehaviour
              
         if(betMoney != 0 && PreCorrida.Apostadonumero >= 1 && PreCorrida.Apostadonumero <= 6 && Aposta.chooseBet != 3)
         {
-            Aposta.Confirm = false;
+            Aposta.confirm = false;
 
 
         player.SetActive(true); // <---------------------------------
@@ -235,41 +235,41 @@ public class CorridaManager : MonoBehaviour
         
         Habilina.SetTrigger("timerhabi");
 
-        VeloMax = player.GetComponentInChildren<carroeng1>().velomax;
-        VeloMin = player.GetComponentInChildren<carroeng1>().velomin;
+        VeloMax = player.GetComponentInChildren<carroeng1>().veloMax;
+        VeloMin = player.GetComponentInChildren<carroeng1>().veloMin;
 
         //player.GetComponentInChildren<carroeng1>().velomax = 0;
         //player.GetComponentInChildren<carroeng1>().velomin = 0;
 
-        VeloMxRE[0] = corredor[0].GetComponent<carroeng1>().velomax;
-        VeloMnRE[0] = corredor[0].GetComponent<carroeng1>().velomin;
+        VeloMxRE[0] = corredor[0].GetComponent<carroeng1>().veloMax;
+        VeloMnRE[0] = corredor[0].GetComponent<carroeng1>().veloMin;
 
-        corredor[0].GetComponent<carroeng1>().velomax = 0;
-        corredor[0].GetComponent<carroeng1>().velomin = 0;
+        corredor[0].GetComponent<carroeng1>().veloMax = 0;
+        corredor[0].GetComponent<carroeng1>().veloMin = 0;
         
-        VeloMxRE[1] = corredor[1].GetComponent<carroeng1>().velomax;
-        VeloMnRE[1] = corredor[1].GetComponent<carroeng1>().velomin;
+        VeloMxRE[1] = corredor[1].GetComponent<carroeng1>().veloMax;
+        VeloMnRE[1] = corredor[1].GetComponent<carroeng1>().veloMin;
 
-        corredor[1].GetComponent<carroeng1>().velomax = 0;
-        corredor[1].GetComponent<carroeng1>().velomin = 0;
+        corredor[1].GetComponent<carroeng1>().veloMax = 0;
+        corredor[1].GetComponent<carroeng1>().veloMin = 0;
         
-        VeloMxRE[2] = corredor[2].GetComponent<carroeng1>().velomax;
-        VeloMnRE[2] = corredor[2].GetComponent<carroeng1>().velomin;
+        VeloMxRE[2] = corredor[2].GetComponent<carroeng1>().veloMax;
+        VeloMnRE[2] = corredor[2].GetComponent<carroeng1>().veloMin;
 
-        corredor[2].GetComponent<carroeng1>().velomax = 0;
-        corredor[2].GetComponent<carroeng1>().velomin = 0;
+        corredor[2].GetComponent<carroeng1>().veloMax = 0;
+        corredor[2].GetComponent<carroeng1>().veloMin = 0;
         
-        VeloMxRE[3] = corredor[3].GetComponent<carroeng1>().velomax;
-        VeloMnRE[3] = corredor[3].GetComponent<carroeng1>().velomin;
+        VeloMxRE[3] = corredor[3].GetComponent<carroeng1>().veloMax;
+        VeloMnRE[3] = corredor[3].GetComponent<carroeng1>().veloMin;
 
-        corredor[3].GetComponent<carroeng1>().velomax = 0;
-        corredor[3].GetComponent<carroeng1>().velomin = 0;
+        corredor[3].GetComponent<carroeng1>().veloMax = 0;
+        corredor[3].GetComponent<carroeng1>().veloMin = 0;
 
-        VeloMxRE[4] = corredor[4].GetComponent<carroeng1>().velomax;
-        VeloMnRE[4] = corredor[4].GetComponent<carroeng1>().velomin;
+        VeloMxRE[4] = corredor[4].GetComponent<carroeng1>().veloMax;
+        VeloMnRE[4] = corredor[4].GetComponent<carroeng1>().veloMin;
 
-        corredor[4].GetComponent<carroeng1>().velomax = 0;
-        corredor[4].GetComponent<carroeng1>().velomin = 0;
+        corredor[4].GetComponent<carroeng1>().veloMax = 0;
+        corredor[4].GetComponent<carroeng1>().veloMin = 0;
 
       
         
@@ -305,8 +305,8 @@ public class CorridaManager : MonoBehaviour
             //p.onomo = instanceOnomo;
 
             corredor[replay].GetComponent<SpriteRenderer>().sprite =  p.onomo.GetComponent<SpriteRenderer>().sprite;
-            corredor[replay].GetComponent<carroeng1>().velomax = p.onomo.GetComponent<carroeng1>().velomax;
-            corredor[replay].GetComponent<carroeng1>().velomin =  p.onomo.GetComponent<carroeng1>().velomin;
+            corredor[replay].GetComponent<carroeng1>().veloMax = p.onomo.GetComponent<carroeng1>().veloMax;
+            corredor[replay].GetComponent<carroeng1>().veloMin =  p.onomo.GetComponent<carroeng1>().veloMin;
             corredor[replay].GetComponent<BoxCollider2D>().offset  =  p.onomo.GetComponent<BoxCollider2D>().offset;
             corredor[replay].GetComponent<BoxCollider2D>().size =  p.onomo.GetComponent<BoxCollider2D>().size;
             corredor[replay].GetComponent<Animator>().runtimeAnimatorController =  p.onomo.GetComponent<Animator>().runtimeAnimatorController;
@@ -398,56 +398,56 @@ public class CorridaManager : MonoBehaviour
 
 
 
-        if(gm.FASE == 2)
+        if(gm.level == 2)
             {
-             corredor[0].GetComponent<carroeng1>().velomax =  4;
-             corredor[0].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[0].GetComponent<carroeng1>().veloMax =  4;
+             corredor[0].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
-             corredor[1].GetComponent<carroeng1>().velomax =  4;
-             corredor[1].GetComponent<carroeng1>().velomin =  0.61f;
-
-
-
-             corredor[2].GetComponent<carroeng1>().velomax =  4;
-             corredor[2].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[1].GetComponent<carroeng1>().veloMax =  4;
+             corredor[1].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
 
-             corredor[3].GetComponent<carroeng1>().velomax =  4;
-             corredor[3].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[2].GetComponent<carroeng1>().veloMax =  4;
+             corredor[2].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
 
-             corredor[4].GetComponent<carroeng1>().velomax =  4;
-             corredor[4].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[3].GetComponent<carroeng1>().veloMax =  4;
+             corredor[3].GetComponent<carroeng1>().veloMin =  0.61f;
+
+
+
+             corredor[4].GetComponent<carroeng1>().veloMax =  4;
+             corredor[4].GetComponent<carroeng1>().veloMin =  0.61f;
 
             }
 
-            if(gm.FASE == 3)
+            if(gm.level == 3)
             {
              
-             corredor[0].GetComponent<carroeng1>().velomax =  5;
-             corredor[0].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[0].GetComponent<carroeng1>().veloMax =  5;
+             corredor[0].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
-             corredor[1].GetComponent<carroeng1>().velomax =  5;
-             corredor[1].GetComponent<carroeng1>().velomin =  0.61f;
-
-
-
-             corredor[2].GetComponent<carroeng1>().velomax =  5;
-             corredor[2].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[1].GetComponent<carroeng1>().veloMax =  5;
+             corredor[1].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
 
-             corredor[3].GetComponent<carroeng1>().velomax =  5;
-             corredor[3].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[2].GetComponent<carroeng1>().veloMax =  5;
+             corredor[2].GetComponent<carroeng1>().veloMin =  0.61f;
 
 
 
-             corredor[4].GetComponent<carroeng1>().velomax =  5;
-             corredor[4].GetComponent<carroeng1>().velomin =  0.61f;
+             corredor[3].GetComponent<carroeng1>().veloMax =  5;
+             corredor[3].GetComponent<carroeng1>().veloMin =  0.61f;
+
+
+
+             corredor[4].GetComponent<carroeng1>().veloMax =  5;
+             corredor[4].GetComponent<carroeng1>().veloMin =  0.61f;
 
             }
 
@@ -525,18 +525,18 @@ public class CorridaManager : MonoBehaviour
         {
          //yield return new WaitForSecondsRealtime(5);
         Time.timeScale = 0.01f;
-         player.GetComponentInChildren<carroeng1>().velomax = VeloMax;
-         player.GetComponentInChildren<carroeng1>().velomin = VeloMin;
-         corredor[0].GetComponentInChildren<carroeng1>().velomax = VeloMxRE[0];
-         corredor[0].GetComponentInChildren<carroeng1>().velomin = VeloMnRE[0];
-         corredor[1].GetComponent<carroeng1>().velomax = VeloMxRE[1];
-         corredor[1].GetComponent<carroeng1>().velomin = VeloMnRE[1];
-         corredor[2].GetComponent<carroeng1>().velomax = VeloMxRE[2];
-         corredor[2].GetComponent<carroeng1>().velomin = VeloMnRE[2];
-         corredor[3].GetComponent<carroeng1>().velomax = VeloMxRE[3];
-         corredor[3].GetComponent<carroeng1>().velomin = VeloMnRE[3];
-         corredor[4].GetComponent<carroeng1>().velomax = VeloMxRE[4];
-         corredor[4].GetComponent<carroeng1>().velomin = VeloMnRE[4];
+         player.GetComponentInChildren<carroeng1>().veloMax = VeloMax;
+         player.GetComponentInChildren<carroeng1>().veloMin = VeloMin;
+         corredor[0].GetComponentInChildren<carroeng1>().veloMax = VeloMxRE[0];
+         corredor[0].GetComponentInChildren<carroeng1>().veloMin = VeloMnRE[0];
+         corredor[1].GetComponent<carroeng1>().veloMax = VeloMxRE[1];
+         corredor[1].GetComponent<carroeng1>().veloMin = VeloMnRE[1];
+         corredor[2].GetComponent<carroeng1>().veloMax = VeloMxRE[2];
+         corredor[2].GetComponent<carroeng1>().veloMin = VeloMnRE[2];
+         corredor[3].GetComponent<carroeng1>().veloMax = VeloMxRE[3];
+         corredor[3].GetComponent<carroeng1>().veloMin = VeloMnRE[3];
+         corredor[4].GetComponent<carroeng1>().veloMax = VeloMxRE[4];
+         corredor[4].GetComponent<carroeng1>().veloMin = VeloMnRE[4];
 
 
 
@@ -882,7 +882,7 @@ public class CorridaManager : MonoBehaviour
             
             Canvascorrida.SetActive(false);
 
-            if(gm.FASE == 0)
+            if(gm.level == 0)
             {
                SceneManager.LoadScene(2);
             }
@@ -1449,37 +1449,37 @@ public class CorridaManager : MonoBehaviour
 
         if (lugar == 6)
         {
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 1)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 1)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, 130.1f);
 
             }
 
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 2)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 2)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, 90.3f);
 
             }
 
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 3)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 3)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, 47.4f);
 
             }
 
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 4)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 4)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, 3.6f);
 
             }
 
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 5)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 5)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, -36.5f);
 
             }
 
-            if(Aposta.Apostado.GetComponentInChildren<OnomoStatus>().podio == 6)
+            if(Aposta.apostado.GetComponentInChildren<OnomoStatus>().podio == 6)
             {
                 apostadomostra.GetComponent<RectTransform>().localPosition = new Vector2(41.2f, -78.09f);
 
@@ -1489,9 +1489,9 @@ public class CorridaManager : MonoBehaviour
 
 
             Habilina.SetTrigger("Descehabi");
-            player.GetComponentInChildren<carroeng1>().delegatePowerUp = null;
-            player.GetComponentInChildren<carroeng1>().velomax = VeloMax;
-            player.GetComponentInChildren<carroeng1>().velomin = VeloMin;
+            player.GetComponentInChildren<carroeng1>().PowerUp = null;
+            player.GetComponentInChildren<carroeng1>().veloMax = VeloMax;
+            player.GetComponentInChildren<carroeng1>().veloMin = VeloMin;
 
             for(int i=0; i > 6; i++)
             {
@@ -1504,17 +1504,17 @@ public class CorridaManager : MonoBehaviour
             }
             MenoZero.SetTrigger("Vitoria");
             
-            Debug.Log("CM1"+Aposta.Apostado+Aposta.Apostado.GetComponent<OnomoStatus>().podio);
+            Debug.Log("CM1"+Aposta.apostado+Aposta.apostado.GetComponent<OnomoStatus>().podio);
 
             livro.SetActive(true);
             Bar.SetActive(true);
             
-            Aposta.Betcalculator();
+            Aposta.BetCalculator();
             gm.ChecaFase();
 
-            Aposta.Confirm = true;
-            Debug.Log("CM2"+Aposta.Apostado+Aposta.Apostado.GetComponent<OnomoStatus>().podio);
-            Debug.Log("CM3"+Aposta.Apostado);
+            Aposta.confirm = true;
+            Debug.Log("CM2"+Aposta.apostado+Aposta.apostado.GetComponent<OnomoStatus>().podio);
+            Debug.Log("CM3"+Aposta.apostado);
 
 
             

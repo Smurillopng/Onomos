@@ -59,9 +59,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -71,8 +74,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -93,10 +96,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -396,9 +403,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_Livro_Fecha 9": 2419093534043391581
+      "Anima\xE7\xE3o_Livro_Fecha 8": -3035942079037411128
+      "Anima\xE7\xE3o_Livro_Fecha 1": 2126426596506646382
+      "Anima\xE7\xE3o_Livro_Fecha 10": -1722088044172774486
+      "Anima\xE7\xE3o_Livro_Fecha 6": 3960812489329083460
+      "Anima\xE7\xE3o_Livro_Fecha 2": 4757090766242086068
+      "Anima\xE7\xE3o_Livro_Fecha 5": -188290592453726779
+      "Anima\xE7\xE3o_Livro_Fecha 3": 735149162051525448
+      "Anima\xE7\xE3o_Livro_Fecha 4": 2982347290635152890
+      "Anima\xE7\xE3o_Livro_Fecha 7": 1709095048933180364
+      "Anima\xE7\xE3o_Livro_Fecha 12": 6474397721533336459
+      "Anima\xE7\xE3o_Livro_Fecha 0": -5919330652984151162
+      "Anima\xE7\xE3o_Livro_Fecha 11": 2735529667056087360
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

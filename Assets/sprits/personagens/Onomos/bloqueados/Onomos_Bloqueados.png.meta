@@ -65,9 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -77,8 +80,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -99,10 +102,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -480,9 +487,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Onomos_Bloqueados_1: 6080318273739690233
+      Onomos_Bloqueados_8: 54425893211768185
+      Onomos_Bloqueados_3: 5452696307980140263
+      Onomos_Bloqueados_2: -8344813761821798741
+      Onomos_Bloqueados_9: 721502905257194008
+      Onomos_Bloqueados_11: -5895202823467312632
+      Onomos_Bloqueados_4: -3283909433889197752
+      Onomos_Bloqueados_5: 2712486181701295480
+      Onomos_Bloqueados_7: 7935538012804805897
+      Onomos_Bloqueados_13: -7939853541961087623
+      Onomos_Bloqueados_0: -4731133596251532000
+      Onomos_Bloqueados_12: 4928654749390919480
+      Onomos_Bloqueados_14: -4982516689679718459
+      Onomos_Bloqueados_6: -6223454252608443216
+      Onomos_Bloqueados_10: -5973901557719084874
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

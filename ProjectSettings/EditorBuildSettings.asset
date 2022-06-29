@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/telaInicial.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 0d38969d1453d2142bc1dfec27d0f0c1
   - enabled: 1
-    path: Assets/Scenes/inicio.unity
+    path: Assets/Scenes/Tutorial.unity
+    guid: b852f4760acc1094fbed1c1bff395756
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
     guid: a122133e9b88e054faa33115982e7f10
   - enabled: 1
-    path: Assets/Scenes/Derrota.unity
+    path: Assets/Scenes/LoseScreen.unity
     guid: 17b11b04341407f49b344daf8c98163b
-  - enabled: 1
-    path: Assets/Scenes/Tuturial.unity
-    guid: b852f4760acc1094fbed1c1bff395756
   m_configObjects: {}
