@@ -5,12 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - apostado
-  - pista1
-  - pista2
-  - pista3
-  - pista4
-  - pista5
-  - pista6
+  - Track 1
+  - Track 2
+  - Track 3
+  - Track 4
+  - Track 5
+  - Track 6
   layers:
   - Default
   - TransparentFX
